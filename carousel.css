@@ -92,3 +92,14 @@ body {
     margin-top: 7rem;
   }
 }
+
+.carousel-indicators li {
+  width: 0 !important;
+  height: 0 !important;
+  /* background-color: #fff !important; */
+  border: 10px solid gray !important;
+  border-radius: 50% !important;
+}
+.carousel-indicators .active {
+  background-color: gray !important;
+}

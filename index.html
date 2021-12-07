@@ -75,20 +75,18 @@
     </div>
 
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+      <ol class="carousel-indicators">
+        <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></li>
+        <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></li>
+        <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
+        <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></li>
+      </ol>
       <div class="carousel-inner">
+        <!-- slide 1 -->
         <div class="carousel-item active">
           <img src="assets/img/kotak.png" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
             preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
-          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg> -->
 
           <div class="container">
             <div class="carousel-caption">
@@ -124,41 +122,65 @@
                 </div>
                 <div class="col-md-6 offset-md-2"><img width="300px" src="assets/img/keluarga.png" alt=""></div>
               </div>
-              <!-- <p>Some representative placeholder content for the second slide of the carousel.</p> -->
               <p class="mt-2"><a class="btn btn-lg btn-primary" href="#">교육문의</a></p>
             </div>
           </div>
         </div>
 
-        <!-- <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+        <!-- slide 2 -->
+        <div class="carousel-item">
+          <img src="assets/img/slide2.png" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
 
           <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <div class="carousel-caption">
+              <p class="fs-1 text-black">HRD에셋 교육원 <span class="fw-bolder">법정의무교육</span></p>
+              <img src="assets/img/gambarslide2.png" alt="">
+              <p class="mt-2"><a class="btn btn-lg btn-primary" href="#">교육문의</a></p>
             </div>
           </div>
         </div>
 
+        <!-- slide 3 -->
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+          <img src="assets/img/slide3.png" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
 
           <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img width="400px" src="assets/img/textslide3.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                  <img width="400px" src="assets/img/gambarslide3.png" alt="">
+                </div>
+              </div>
+              <p class="mt-2"><a class="btn btn-lg btn-primary" href="#">교육문의</a></p>
             </div>
           </div>
-        </div> -->
+        </div>
+
+        <!-- slide 4 -->
+        <div class="carousel-item">
+          <img src="assets/img/slide4.png" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img width="370px" src="assets/img/textslide4.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                  <img width="370px" src="assets/img/gambarslide4.png" alt="">
+                </div>
+              </div>
+              <p class="mt-2"><a class="btn btn-lg btn-primary" href="#">교육문의</a></p>
+            </div>
+          </div>
+        </div>
+
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -178,7 +200,7 @@
 
     <div class="featurette-divider"></div>
 
-    <div class="container">
+    <div class="container pl-2 pr-2">
       <div class="row">
         <div class="col-md-6">
           <p class="text-black fs-5 fw-bolder"><span class="text-primary fw-bolder"> |</span> 산업공통</p>
@@ -232,7 +254,7 @@
 
     <div class="featurette-divider"></div>
     <!-- gambar budak saha -->
-    <div class="container">
+    <div class="container pl-2 pr-2">
       <p class="text-black fs-5 fw-bolder"><span class="text-primary fw-bolder"> |</span> 산업공통</p>
       <div class="card mb-3">
         <div class="row g-0">
@@ -272,13 +294,12 @@
       </div>
     </div>
     <!-- end budak saha -->
-
     <div class="featurette-divider"></div>
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="card border-0" style="width: 20rem;">
+      <div class="row">
+        <div class="card border-0 float-start" style="width: 20rem;">
           <div class="card-body">
-            <p class="text-black fs-5 fw-bold"><span class="text-primary fw-bold"> |</span> 평가제 필수 교육</p>
+            <p class="text-black fs-5 fw-bold float-start"><span class="text-primary fw-bold"> |</span> 평가제 필수 교육</p>
           </div>
         </div>
         <div class="card border-0" style="width: 20rem;">
@@ -316,7 +337,7 @@
     </div>
 
     <div class="container-fluid-lg p-2 text-end fs-4">
-      <img src="assets/img/telepon.png" alt=""> 교육상담을 원하시나요? 
+      <img src="assets/img/telepon.png" alt=""> 교육상담을 원하시나요?
       <span class="badge rounded-pill bg-primary">교육문의</span>
       <img class="p-3" src="assets/img/x.png" alt="">
     </div>
@@ -330,22 +351,24 @@
         <div class="col-lg-10">
           <div class="col md-12">
 
-            <ul class="nav">
-              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
-                    class="nav-link link-dark px-4 d-block text-muted">교육원소개</a></small></li>
-              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
-                    class="nav-link link-dark px-4 d-block text-muted border-end border-start">교육제도안내</a></small></li>
-              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
-                    class="nav-link link-dark px-4 d-block text-muted border-end">이용약관</a></small></li>
-              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
-                    class="nav-link link-dark px-4 d-block text-muted">개인정보취급방침</a></small></li>
+            <ul class="nav p-3">
+              <li class="nav-item"><small style="font-size: small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-black">교육원소개</a></small></li>
+              <li class="nav-item"><small style="font-size: small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-black border-end border-start">교육제도안내</a></small></li>
+              <li class="nav-item"><small style="font-size: small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-black border-end">이용약관</a></small></li>
+              <li class="nav-item"><small style="font-size: small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-black">개인정보취급방침</a></small></li>
             </ul>
           </div>
           <div class="col md-12">
-              <p class="fs-6 text-muted">경기도 용인시 기흥구 흥덕1로 13 흥덕IT밸리 타워동 104호, 105호</p>
-              <p class="fs-6 text-muted">고객상담센터: 1811-6552 팩스: 031-660-7247 이메일: hrdasset.kr@hrdasset.co.kr 개인정보책임자: 김준화</p>
-              <p class="fs-6 text-muted">상호명: HRD에셋 대표자: 김준화 사업자 등록번호: 278-42-00199 통신판매업신고번호: 2021-용인기흥-1681</p>
-              <p class="fs-6 text-muted">COPYRIGHT © HRD에셋 Inc. ALL RIGHTS RESERVED. 본 사이트 내의 컨텐츠는 저작권법 상의 보호를 받고 있습니다.</p>
+            <p class="fs-6 text-muted">경기도 용인시 기흥구 흥덕1로 13 흥덕IT밸리 타워동 104호, 105호</p>
+            <p class="fs-6 text-muted">고객상담센터: 1811-6552 팩스: 031-660-7247 이메일: hrdasset.kr@hrdasset.co.kr 개인정보책임자: 김준화
+            </p>
+            <p class="fs-6 text-muted">상호명: HRD에셋 대표자: 김준화 사업자 등록번호: 278-42-00199 통신판매업신고번호: 2021-용인기흥-1681</p>
+            <p class="fs-6 text-muted">COPYRIGHT © HRD에셋 Inc. ALL RIGHTS RESERVED. 본 사이트 내의 컨텐츠는 저작권법 상의 보호를 받고 있습니다.
+            </p>
           </div>
         </div>
       </div>
