@@ -11,8 +11,13 @@
 .bg-custom-blue {
     background-color: #3551A2 !important;
 }
+
 .f-blue {
     color: #3551A2 !important;
+}
+
+.f-sky-blue {
+    color: #0897C4 !important;
 }
 
 /* padding left */
