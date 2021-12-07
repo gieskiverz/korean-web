@@ -108,9 +108,9 @@
                 </p>
                 <p class="pt-2 fw-bold f-blue">/ 지원절차는 어떻게 되나요? /</p>
                 <p>
-                    <a href="content33.php" class="nav-link badge rounded-pill bg-custom-blue pl-2 pr-2 pt-2 pb-2">
+                    <span class="badge rounded-pill bg-custom-blue pl-2 pr-2 pt-2 pb-2">
                         STEP 1 > 근로자직업능력 발급신청 (온/오프라인)
-                    </a href="content33.php">
+                    </span>
                 </p>
                 <p>
                     <li>온라인 신청은 HRD-NET로그인 후 상단 [행정서비스]-[근로자카드신청]에서 신청</li>
