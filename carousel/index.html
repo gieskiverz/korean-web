@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Carousel Template · Bootstrap v5.1</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <link href="headers.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="py-1 px-4 bg-light float-end">
+          <div class="container d-flex flex-wrap">
+            <ul class="nav">
+              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-muted">로그아웃</a></small></li>
+              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-muted border-end border-start">교강사모드</a></small></li>
+              <li class="nav-item"><small style="font-size: x-small;"><a href="#"
+                    class="nav-link link-dark px-4 d-block text-muted">관리자모드</a></small></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="col-lg-12">
+        <div class="container">
+          <header class="d-flex flex-wrap py-3">
+            <div class="col-md-3 text-start">
+              <img src="../assets/img/logo.png" alt="">
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-4 link-secondary">법정의무교육</a></li>
+              <li><a href="#" class="nav-link px-4 link-dark">직무능력향상교육</a></li>
+              <li><a href="#" class="nav-link px-4 link-dark">학습지원센터</a></li>
+              <li><a href="#" class="nav-link px-4 link-dark">나의 강의실</a></li>
+            </ul>
+          </header>
+        </div>
+      </div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/kotak.png" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg> -->
+
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-md-4 text-start">
+                  <h1 class="col-md-12 text-start" style="color: #444444"><span style="color: #E2591C;">30만 보육인</span>을
+                    위한</h1>
+                  <h1 class="col-md-12 text-start mb-4" style="color: #444444">어린이집 평가</h1>
+                  <div class="row">
+                    <div class="badge bg-secondary text-wrap rounded-pill p-2 col-md-3">
+                      평가영역 / 1
+                    </div>
+                    <h5 class="text-wrap col-md-9 text-secondary">보육과정 및 상호작용</h5>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="badge bg-secondary text-wrap rounded-pill p-2 col-md-3">
+                      평가영역 / 2
+                    </div>
+                    <h5 class="text-wrap col-md-9 text-secondary">보육환경 및 운영관리</h5>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="badge bg-secondary text-wrap rounded-pill p-2 col-md-3">
+                      평가영역 / 3
+                    </div>
+                    <h5 class="text-wrap col-md-9 text-secondary">건강·안전</h5>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="badge bg-secondary text-wrap rounded-pill p-2 col-md-3">
+                      평가영역 / 4
+                    </div>
+                    <h5 class="text-wrap col-md-9 text-secondary">교직원</h5>
+                  </div>
+                </div>
+                <div class="col-md-6 offset-md-2"><img width="300px" src="../assets/img/keluarga.png" alt=""></div>
+              </div>
+              <!-- <p>Some representative placeholder content for the second slide of the carousel.</p> -->
+              <p class="mt-2"><a class="btn btn-lg btn-primary" href="#">교육문의</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- lineup -->
+    <p class="text-center fs-2 text-black">“ 법정의무교육은 선택이 아닌 <span class="fw-bolder text-primary">필수</span> 입니다! ”</p>
+
+    <h2 class="text-center text-black">산업분야별 법정의무교육 LINE UP</h2>
+    <!-- end line up -->
+
+    <hr class="featurette-divider">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-black fs-5 fw-bolder"><span class="text-primary fw-bolder"> |</span> 산업공통</p>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../assets/img/meeting.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-3">
+                  <ul style="font-size: 14px;">
+                    <li>개인정보보호교육</li>
+                    <li>직장 내 성희롱 예방교육</li>
+                    <li>직장 내 장애인 인식개선교육</li>
+                    <li>직장 내 괴롭힘 예방교육</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="text-black fs-5 fw-bolder"><span class="text-primary fw-bolder"> |</span> 의료기관 전용</p>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../assets/img/tangan.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pt-2">
+                  <ul style="font-size: 14px;">
+                    <li>의료기관 개인정보보호교육</li>
+                    <li>의료기관 내 성희롱 예방교육</li>
+                    <li>의료기관 내 장애인 인식개선교육</li>
+                    <li>의료기관 내 괴롭힘 예방교육</li>
+                    <li>의료기관 인증 필수교육</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <p class="text-center"><img src="../assets/img/print.png" alt=""></p>
+    <p class="text-center fs-2 text-black">어린이집은 평가제를 대비하여</p>
+    <p class="text-center fs-2 text-black">법정의무교육과 평가제 필수교육을 <span class="fw-bolder" style="color: #F27658;">반드시
+        이수</span> 해야 합니다</p>
+
+    <hr class="featurette-divider">
+    <!-- gambar budak saha -->
+    <div class="container">
+      <p class="text-black fs-5 fw-bolder"><span class="text-primary fw-bolder"> |</span> 산업공통</p>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-lg-3">
+            <img src="../assets/img/budaksaha.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-lg-3 mt-3 mt-3">
+            <div class="card-body">
+              <ul style="font-size: 14px;">
+                <li>어린이집 개인정보보호 CCTV 의무화교육</li>
+                <li>어린이집 내 성희롱 예방교육</li>
+                <li>어린이집 아동학대 예방교육</li>
+                <li>어린이집 내 장애인 인식개선교육</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-3">
+            <div class="card-body">
+              <ul style="font-size: 14px;">
+                <li>어린이집 장애인인식 개선교육</li>
+                <li>어린이집 아동학대 예방교육</li>
+                <li>어린이집 아동학대 신고 의무자교육</li>
+                <li>어린이집 아동 성폭력 예방교육</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-3">
+            <div class="card-body">
+              <ul style="font-size: 14px;">
+                <li>보육교직원 등·하원 안전교육</li>
+                <li>심폐소생술 포함 보육교직원 안전교육</li>
+                <li>어린이집 내 괴롭힘 예방교육</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end budak saha -->
+
+    <hr class="featurette-divider">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card border-0" style="width: 20rem;">
+          <div class="card-body">
+            <p class="text-black fs-5 fw-bold"><span class="text-primary fw-bold"> |</span> 평가제 필수 교육</p>
+          </div>
+        </div>
+        <div class="card border-0" style="width: 20rem;">
+          <img src="../assets/img/bebas1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul>
+              <li style="font-size: 12px;" class="fw-bold">영유아 인권 포함 교사 인성교육</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card border-0 border-start border-end" style="width: 20rem;">
+          <img src="../assets/img/bebas1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul>
+              <li style="font-size: 12px;" class="fw-bold">보육교직원 건강·영양교육</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card border-0" style="width: 20rem;">
+          <img src="../assets/img/bebas1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul>
+              <li style="font-size: 12px;" class="fw-bold">보육교직원 직무스트레스 예방 및 관리교육</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <img class="img-fluid" src="../assets/img/infocall.png" width="100%" alt="">
+    <img class="img-fluid" src="../assets/img/call.png" width="100%" alt="">
+    <img class="img-fluid" src="../assets/img/footer.png" width="100%" alt="">
+
+
+    <!-- FOOTER -->
+    <!-- <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer> -->
+  </main>
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
