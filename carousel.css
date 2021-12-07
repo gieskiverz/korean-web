@@ -103,3 +103,10 @@ body {
 .carousel-indicators .active {
   background-color: gray !important;
 }
+
+a.active {
+	color: #0897c4 !important;
+}
+a:hover {
+	color: #0897c4 !important;
+}
