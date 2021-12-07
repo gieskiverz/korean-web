@@ -6,11 +6,10 @@
         </div>
         <div class="col-lg-10 pl-5">
             <div class="col md-12">
-
                 <ul class="nav p-3">
                     <li class="nav-item"><small style="font-size: small;"><a href="content13.php" class="nav-link link-dark px-4 d-block text-black">교육원소개</a></small></li>
                     <li class="nav-item"><small style="font-size: small;"><a href="content18.php" class="nav-link link-dark px-4 d-block text-black border-end border-start">교육제도안내</a></small></li>
-                    <li class="nav-item"><small style="font-size: small;"><a href="#" class="nav-link link-dark px-4 d-block text-black border-end">이용약관</a></small></li>
+                    <li class="nav-item"><small style="font-size: small;"><a href="content23.php" class="nav-link link-dark px-4 d-block text-black border-end">이용약관</a></small></li>
                     <li class="nav-item"><small style="font-size: small;"><a href="#" class="nav-link link-dark px-4 d-block text-black">개인정보취급방침</a></small></li>
                 </ul>
             </div>
