@@ -16,8 +16,17 @@
     border-color: #E5E5E5 !important;
 }
 
+
+.border-blue {
+    border-color: #3551A2 !important;
+}
+
 .bg-custom-blue {
     background-color: #3551A2 !important;
+}
+
+a.nav-link.fw-bold.text-black.border-top.border-bottom.border-3.active {
+    border-color: #3551A2 !important;
 }
 
 .go-mid {
