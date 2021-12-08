@@ -73,7 +73,7 @@
                         </div>
                         <div class="mt-5">
                             <button class="btn pl-1 pr-1 border border-blue rounded f-blue bg-white fw-bold">교육맛보기</button>
-                            <button class="btn ml-1 text-black bg-custom-light-gray">문 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;의</button>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn ml-1 text-black bg-custom-light-gray">문 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;의</button>
                         </div>
                     </div>
                 </div>
@@ -200,6 +200,52 @@
         <!-- end content -->
         <?php include "footer.php" ?>
         <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-custom-light-gray">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header border-bottom border-5 w-100 border-gray">
+                        <h4 class="modal-title f-blue fw-bold">간편문의</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <table class="table table-borderless w-100">
+                            <tr>
+                                <td>이름</td>
+                                <td><input type="text" class="form-control w-50"></td>
+                            </tr>
+                            <tr>
+                                <td>전화번호</td>
+                                <td><input type="text" class="form-control d-inline w-25 mr-1"><input type="text" class="form-control d-inline w-25 mr-1"><input type="text" class="form-control d-inline w-25 mr-1"></td>
+                            </tr>
+                            <tr>
+                                <td>이메일</td>
+                                <td><input type="text" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td colspan=2>
+                                    <div><textarea class="form-control" name="" id="" cols="30" rows="10"></textarea></div>
+                                    <div class="mt-3"><input type="checkbox" name="" id=""> 개인정보수집방침에 동의합니다. <span class="border border-gray p-1">내용보기</span></div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="container border-top border-bottom border-2 border-gray p-3 fw-bold text-center">
+                            <span>보안코드</span> <span class="text-warning m-2 fs-4">32604</span><input type="text" name="" id="" class="form-control d-inline w-25"><span class="m-2">왼쪽의 보안코드를 입력하세요.</span>
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn bg-custom-blue text-white rounded-pill pl-2 pr-2" data-bs-dismiss="modal">확인</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 
 </body>
