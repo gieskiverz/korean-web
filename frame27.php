@@ -63,7 +63,7 @@
                     <div class="col-md-3 offset-md-9">
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="button-addon2">
-                            <button class="btn bg-custom-gray" type="button" id="button-addon2"><img src="assets/img/magnify.png" alt=""></button>
+                            <button class="btn bg-custom-light-gray" type="button" id="button-addon2"><img src="assets/img/magnify.png" alt=""></button>
                         </div>
                     </div>
                 </div>
