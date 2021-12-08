@@ -17,13 +17,13 @@
         <div class="container ml-3">
           <header class="d-flex flex-wrap py-3">
             <div class="col-md-3 text-start">
-              <img src="assets/img/logo.png" alt="">
+              <a href="index.php"> <img src="assets/img/logo.png" alt=""></a>
             </div>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.php" class="nav-link px-4 link-secondary">법정의무교육</a></li>
+              <li><a href="#" class="nav-link px-4 link-secondary">법정의무교육</a></li>
               <li><a href="#" class="nav-link px-4 link-dark">직무능력향상교육</a></li>
-              <li><a href="#" class="nav-link px-4 link-dark">학습지원센터</a></li>
+              <li><a href="frame27.php" class="nav-link px-4 link-dark">학습지원센터</a></li>
               <li><a href="#" class="nav-link px-4 link-dark">나의 강의실</a></li>
             </ul>
           </header>
