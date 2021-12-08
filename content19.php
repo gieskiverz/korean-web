@@ -79,6 +79,30 @@
                 <li class="text-center"></li>
                 <li class="text-center"></li>
                 <li class="text-center"></li>
+                
+                <p class="pt-2 f-blue fw-bold">/ 5 /  학습진행</p>
+                <p>
+                    <li>수료기준을 확인하신 후, 교육기간 내에 학습을 완료합니다.</li>
+                    <li>진도율, 진행단계평가, 최종평가 (최종평가는 시험 및 과제로 구성되며 과정마다 하나만 구성될 수도 있습니다.)</li>
+                </p>
+                
+                <li class="text-center"></li>
+                <li class="text-center"></li>
+                <li class="text-center"></li>
+                <p class="pt-2 f-blue fw-bold">/ 9 /  환급신청</p>
+                <p class="fw-bold border col-md-1 text-center rounded-pill border-dark">신청유형 1</p>
+                <p>
+                    <li>훈련기관 교육과정 훈련비용 중 사업주가 정부지원금을 제외한 자기부담금만 지불하는 방식</li>
+                    <li>사업주 : 훈련비 중 정부지원금을 제외한 자기부담금을 훈련기관에 납부</li>
+                    <li>훈련기관 : 훈련비 중 정부지원금을 신청하여 수령</li>
+                </p>
+                <p class="fw-bold border col-md-1 text-center rounded-pill border-dark">신청유형 2</p>
+                <p>
+                    <li>훈련기관 교육과정 훈련비용을 사업주가 선지급하고 훈련기관이 정부지원금을 신청·수령 후 사업주에게 지급하는 방식</li>
+                    <li>사업주 : 실제훈련비(자기부담금+정부지원금)를 훈련기관에 납부</li>
+                    <li>훈련기관 : 훈련비 중 정부지원금을 신청하여 수령 후 사업주에게 환급</li>
+                </p>
+                <hr>
             </div>
         </div>
         <!-- end content -->
