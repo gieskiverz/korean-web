@@ -50,9 +50,9 @@
                         <li class="list-group-item fw-bold" style="border-bottom: 3px solid !important;">학습지원센터</li>
                         <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame27.php">공지사항</a></a></li>
                         <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark active" style="padding: 0rem !important;" href="frame28.php">FAQ</a></li>
-                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame29.php">자료실</a></li>
-                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame30.php">PC 원격지원</a></li>
-                        <li class="list-group-item pt-3 pb-3 border-bottom"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame31.php">교육문의</a></li>
+                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame35.php">자료실</a></li>
+                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame29.php">PC 원격지원</a></li>
+                        <li class="list-group-item pt-3 pb-3 border-bottom"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame36.php">교육문의</a></li>
                     </ul>
                 </div>
             </div>

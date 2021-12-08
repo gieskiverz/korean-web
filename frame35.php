@@ -48,9 +48,9 @@
                 <div class="bd-example">
                     <ul class="list-group list-group-flush ml-3 mr-2">
                         <li class="list-group-item fw-bold" style="border-bottom: 3px solid !important;">학습지원센터</li>
-                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark active" style="padding: 0rem !important;" href="frame27.php">공지사항</a></a></li>
+                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame27.php">공지사항</a></a></li>
                         <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame28.php">FAQ</a></li>
-                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame35.php">자료실</a></li>
+                        <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark active" style="padding: 0rem !important;" href="frame35.php">자료실</a></li>
                         <li class="list-group-item pt-3 pb-3"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame29.php">PC 원격지원</a></li>
                         <li class="list-group-item pt-3 pb-3 border-bottom"><a class="nav-link link-dark" style="padding: 0rem !important;" href="frame36.php">교육문의</a></li>
                     </ul>
@@ -58,7 +58,7 @@
             </div>
 
             <div class="col-md-10 pl-6 pr-8">
-                <p class="col-md-2 fs-4 text-start fw-bold pb-5">공지사항</p>
+                <p class="col-md-2 fs-4 text-start fw-bold pb-5">자료실</p>
                 <div class="row">
                     <div class="col-md-3 offset-md-9">
                         <div class="input-group mb-3">
@@ -81,24 +81,10 @@
                     <tbody>
                         <tr class="border-bottom">
                             <td class="text-center"><span class="pl-2">1</span></td>
-                            <td>훈련진행절차</td>
-                            <td></td>
+                            <td class="text-center">테스트</td>
+                            <td class="text-center"><img src="assets/img/file.png" alt=""></td>
                             <td class="text-center">2021-04-25</td>
                             <td class="text-center">120</td>
-                        </tr>
-                        <tr class="border-bottom">
-                            <td class="text-center"><span class="pl-2">2</span></td>
-                            <td>훈련 유의사항</td>
-                            <td></td>
-                            <td class="text-center">2021-04-25</td>
-                            <td class="text-center">55</td>
-                        </tr>
-                        <tr class="border-bottom">
-                            <td class="text-center"><span class="pl-2">3</span></td>
-                            <td>부정훈련방지운영기준</td>
-                            <td></td>
-                            <td class="text-center">2021-04-25</td>
-                            <td class="text-center">104</td>
                         </tr>
                     </tbody>
                 </table>
