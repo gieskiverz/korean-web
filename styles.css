@@ -12,6 +12,10 @@
     background-color: #E5E5E5 !important;
 }
 
+.border-light-gray {
+    border-color: #E5E5E5 !important;
+}
+
 .bg-custom-blue {
     background-color: #3551A2 !important;
 }
@@ -24,6 +28,23 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.fs-7 {
+    font-size: 0.9rem !important;
+}
+
+.fs-8 {
+    font-size: 0.8rem !important;
+}
+
+.fs-9 {
+    font-size: 0.7rem !important;
+}
+
+.fs-10 {
+    font-size: 0.6rem !important;
+}
+
 .f-blue {
     color: #3551A2 !important;
 }
