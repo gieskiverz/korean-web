@@ -97,14 +97,10 @@
 
                         <li class="accordion-item list-group">
                             <h2 class="accordion-header" id="heading4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <a class="accordion-button collapsed nav-link" href="frame40.php">
                                     회원정보관리
-                                </button>
+                                </a>
                             </h2>
-                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                </div>
-                            </div>
                         </li>
 
                         <li class="accordion-item list-group">
