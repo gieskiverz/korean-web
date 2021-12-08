@@ -21,7 +21,7 @@
             </div>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-4 link-secondary">법정의무교육</a></li>
+              <li><a href="frame26.php" class="nav-link px-4 link-secondary">법정의무교육</a></li>
               <li><a href="#" class="nav-link px-4 link-dark">직무능력향상교육</a></li>
               <li><a href="frame27.php" class="nav-link px-4 link-dark">학습지원센터</a></li>
               <li><a href="frame46.php" class="nav-link px-4 link-dark">나의 강의실</a></li>
