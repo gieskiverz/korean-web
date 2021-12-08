@@ -85,7 +85,7 @@
                                     <span class="col-md-2 fw-bold">회원가입</span> <span class="col-md-6">회원가입은 어떻게 하나요?</span>
                                 </button>
                             </h4>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body p-5 bg-custom-light-gray">
                                     <div class="col-md-6 offset-md-2">
                                         <p>> HRD에셋 입니다.</p>
