@@ -58,7 +58,6 @@
             </div>
 
             <div class="col-md-10 p-5">
-                <span class="f-blue fw-bold"></span>
                 <!-- 1 -->
                 <p class="border-top border-bottom border-2 border-dark col-md-2 fs-4 text-center fw-bold">교육생 유의사항</p>
                 <p class="pt-2"><img src="assets/img/dot.png" alt=""> <span class="fw-bold">자동 수강, 제출 프로그램 방지 캡챠 시스템 안내</span></p>
