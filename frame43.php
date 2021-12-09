@@ -112,8 +112,8 @@
                             <div id="collapse5" class="accordion-collapse collapse show" aria-labelledby="heading5" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <a class="nav-link link-dark ml-1 mb-2" style="padding: 0rem !important;" href="frame41.php">자사수강생 리스트</a>
-                                    <a class="nav-link link-dark ml-1 mb-2 active" style="padding: 0rem !important;" href="frame42.php">자부담금 관리</a>
-                                    <a class="nav-link link-dark ml-1 mb-2" style="padding: 0rem !important;" href="frame43.php">수료 관리</a>
+                                    <a class="nav-link link-dark ml-1 mb-2" style="padding: 0rem !important;" href="frame42.php">자부담금 관리</a>
+                                    <a class="nav-link link-dark ml-1 mb-2 active" style="padding: 0rem !important;" href="frame43.php">수료 관리</a>
                                 </div>
                             </div>
                         </li>
@@ -125,34 +125,34 @@
                 <p class="col-md-2 fs-4 text-start fw-bold pb-5">자사 수강생 리스트</p>
                 <div class="tow mb-5">
                     <span class="text-primary fs-6 border-top border-bottom border-light-blue border-3 p-1 align-middle">2021.04.25 ~ 2021.04.25 개강</span>
+                    <button class="btn f-blue border-blue rounded float-end ml-1">전체 비환급과정 수료증 PDF</button>
+                    <button class="btn f-blue border-blue rounded float-end">전체 환급과정 수료증 PDF</button>
                 </div>
                 <div class="row rounded border border-5 p-5">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div>법정의무교육</div>
                         <div class="fw-bold fs-5">개인정보보호교육</div>
                         <div>환급 <span class="f-blue">0명</span> | 비환급 <span class="f-blue">2명</span></div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 offset-md-1">
                         <table class="table table-bordered align-middle text-center">
                             <tr>
-                                <td class="bg-custom-light-gray">교육비</td>
-                                <td class="bg-custom-light-gray">통장입금액</td>
-                                <td rowspan="4">
-                                    <div>상태</div>
-                                    <div class="text-primary">결제요청중</div>
-                                </td>
+                                <td class="p-3">환급 수료인원</td>
+                                <td class="p-3">비환급 수료인원</td>
                             </tr>
                             <tr>
-                                <td>0명</td>
-                                <td>0명</td>
+                                <td class="p-3">0명 / 0명</td>
+                                <td class="p-3">2명 / 2명</td>
                             </tr>
-                            <tr class="bg-custom-light-gray">
-                                <td>자부담금</td>
-                                <td>결제요청금액</td>
+                        </table>
+                    </div>
+                    <div class="col-md-3">
+                        <table class="table table-borderless text-center float-end">
+                            <tr>
+                                <td><button class="btn bg-custom-light-gray btn-small d-block w-100">환급과정 수료증 PDF</button></td>
                             </tr>
                             <tr>
-                                <td class="text-warning">0명</td>
-                                <td>0명</td>
+                                <td><button class="btn bg-custom-light-gray btn-small d-block w-100">비환급과정 수료증 PDF</button></td>
                             </tr>
                         </table>
                     </div>
