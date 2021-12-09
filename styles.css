@@ -24,9 +24,12 @@
     border-color: #B0B0B0 !important;
 }
 
-
 .border-blue {
     border-color: #3551A2 !important;
+}
+
+.border-light-blue {
+    border-color: #0897C4 !important;
 }
 
 .bg-custom-blue {
