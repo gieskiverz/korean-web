@@ -111,6 +111,9 @@
                             </h2>
                             <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
+                                    <a class="nav-link link-dark ml-1 mb-2" style="padding: 0rem !important;" href="frame41.php">자사수강생 리스트</a>
+                                    <a class="nav-link link-dark ml-1 mb-2" style="padding: 0rem !important;" href="frame42.php">자부담금 관리</a>
+                                    <a class="nav-link link-dark ml-1 mb-2" style="padding: 0rem !important;" href="frame43.php">수료 관리</a>
                                 </div>
                             </div>
                         </li>
